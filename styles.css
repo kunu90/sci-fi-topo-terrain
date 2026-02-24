@@ -1,0 +1,27 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  background: #070a0f;
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial;
+}
+
+#c {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+#hint {
+  position: fixed;
+  left: 12px;
+  bottom: 12px;
+  padding: 8px 10px;
+  border-radius: 10px;
+  background: rgba(0,0,0,0.35);
+  color: rgba(255,255,255,0.75);
+  font-size: 12px;
+  user-select: none;
+  pointer-events: none;
+}
